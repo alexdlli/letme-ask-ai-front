@@ -1,6 +1,6 @@
 export type GetRoomsResponse = {
   id: string;
   name: string;
-  questionsCount: number;
+  questionCount: number;
   createdAt: string;
 }[];
