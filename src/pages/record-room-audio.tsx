@@ -90,7 +90,7 @@ export function RecordRoomAudio() {
       recorder.current?.stop();
 
       createRecorder(audio);
-    }, 5000);
+    }, 10_000);
   }
 
   if (!params.roomId) {
